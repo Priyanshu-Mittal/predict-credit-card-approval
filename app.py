@@ -11,10 +11,9 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import GridSearchCV
 
 
-st.title("Predicting Credit cards Approval")
-
 if st.button('Source Code(Github)'):
     webbrowser.open_new_tab("https://github.com/Priyanshu-Mittal/predict-credit-card-approval")
+st.title("Predicting Credit cards Approval")
 
 
 st.header("**Data Exploration**")
